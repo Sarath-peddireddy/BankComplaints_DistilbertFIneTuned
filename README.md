@@ -1,19 +1,25 @@
 Bank Complaints Classification Using DistilBERT
+
 Project Overview
+
 This project demonstrates fine-tuning of DistilBERT (a smaller, faster version of BERT) for classifying Bank Complaints using Natural Language Processing (NLP). The model was trained on a dataset containing various customer complaints and their corresponding classifications.
 
 Key Features
+
 Model: DistilBERT (pre-trained on English corpus)
 Dataset: Bank Complaints Dataset (Customer complaint text categorized into different classes)
 Accuracy Before Fine-Tuning: 47%
 Accuracy After Fine-Tuning: 86%
+
 Technologies Used
+
 Python: Programming language for data processing and machine learning.
 Transformers (Hugging Face): Pre-trained models like DistilBERT.
 PyTorch: Framework for deep learning.
 Scikit-learn: For machine learning utilities like train-test split, metrics, etc.
 pandas: For data manipulation and processing.
 NumPy: For numerical operations.
+
 Setup Instructions
 1. Clone the Repository
 Clone the repository to your local machine to get started:
