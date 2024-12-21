@@ -7,8 +7,11 @@ This project demonstrates fine-tuning of DistilBERT (a smaller, faster version o
 Key Features
 
 Model: DistilBERT (pre-trained on English corpus)
+
 Dataset: Bank Complaints Dataset (Customer complaint text categorized into different classes)
+
 Accuracy Before Fine-Tuning: 47%
+
 Accuracy After Fine-Tuning: 86%
 
 Technologies Used
