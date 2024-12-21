@@ -1,6 +1,6 @@
 Bank Complaints Classification Using DistilBERT
 Project Overview
-This project demonstrates the fine-tuning of DistilBERT (a smaller, faster version of BERT) for classifying Bank Complaints using Natural Language Processing (NLP). The model was trained on a dataset containing various customer complaints and their corresponding classifications.
+This project demonstrates fine-tuning of DistilBERT (a smaller, faster version of BERT) for classifying Bank Complaints using Natural Language Processing (NLP). The model was trained on a dataset containing various customer complaints and their corresponding classifications.
 
 Key Features
 Model: DistilBERT (pre-trained on English corpus)
@@ -15,23 +15,23 @@ Scikit-learn: For machine learning utilities like train-test split, metrics, etc
 pandas: For data manipulation and processing.
 NumPy: For numerical operations.
 Setup Instructions
-Clone the Repository
+1. Clone the Repository
 Clone the repository to your local machine to get started:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-repository.git
-Install Dependencies
+git clone https://github.com/Sarath-peddireddy/BankComplaints_DistilbertFIneTuned.git
+2. Install Dependencies
 To install the required libraries, run:
 
 bash
 Copy code
 pip install -r requirements.txt
-Dataset
+3. Dataset
 The dataset used in this project is the Bank Complaints Dataset. You can upload your own dataset or use the provided dataset in the /data directory.
 
 Usage
-Training the Model
+1. Training the Model
 To train the model, run the following command:
 
 bash
@@ -39,7 +39,7 @@ Copy code
 python train_model.py
 This will load the pre-trained DistilBERT model, fine-tune it on the dataset, and save the trained model.
 
-Making Predictions
+2. Making Predictions
 To make predictions with the trained model, run:
 
 bash
@@ -47,8 +47,8 @@ Copy code
 python predict.py --input "Sample complaint text"
 Results
 Before Fine-Tuning: Model accuracy was 47%.
-After Fine-Tuning: Model accuracy reached 86%.
-This improvement shows the effectiveness of fine-tuning a pre-trained model for custom classification tasks.
+After Fine-Tuning: Model accuracy improved to 86%.
+This improvement demonstrates the effectiveness of fine-tuning a pre-trained model for custom classification tasks.
 
 Contributing
 Contributions are welcome! Please fork the repository and submit pull requests. Ensure that your code adheres to the project's coding standards and includes appropriate test cases.
